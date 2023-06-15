@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'rajdhani';
+    src: url(./Fonts/Rajdhani-Medium.ttf);
+   
+}
+@font-face
+{
+    font-family: 'spaceGrotesk';
+    src: url(./Fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+/* design de section hero */
+#hero
+{
+    background-image: url(./Illustrations/Batgame_1.png) ;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+}
+
+.container2
+{
+  margin: 15% 0 10% 15%;
+}
+
+.container2 p
+{
+ font-family: 'rajdhani';
+ font-size: 52px;
+ font-weight: bold;
+}
