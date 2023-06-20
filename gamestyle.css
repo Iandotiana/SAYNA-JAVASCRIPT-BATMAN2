@@ -8,6 +8,32 @@
     font-family: 'spaceGrotesk';
     src: url(./Fonts/SpaceGrotesk-VariableFont_wght.ttf);
 }
+/* les lignes discrètes */
+.up-bar
+{
+    border-top: 3px solid #bcbbbdcc;
+    position: relative;
+    top:131px ;
+    width: 78%;
+    margin: 0 auto;
+}
+.left-bar
+{
+    border-left: 3px solid #bcbbbdcc;
+    position: absolute;
+    left:169px ;
+    height: 335%;
+    margin: 0 auto;
+   
+}
+.right-bar
+{
+    border-right: 3px solid #bcbbbdcc;
+    position: absolute;
+    right:169px ;
+    height: 335%;
+    margin: 0 auto;
+}
 /* design de section hero */
 #hero
 {
@@ -29,3 +55,78 @@
  font-size: 52px;
  font-weight: bold;
 }
+
+
+
+
+
+.wrapped
+{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+h2
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.questions ,#question-suivante
+{
+    display: none;
+}
+.nombreDeQuestions,.question-quizz
+{
+  margin: 20px 0;
+}
+.card-quizz
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    border: 1px solid darkgray;
+}
+.card-image
+{
+    width: 60%;
+}
+.card-body-quizz
+{
+    margin-right:30px ;
+    flex-basis: 60%;
+}
+.qcm
+{
+  background-color: darkgray;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+.btn-game
+{
+    padding: 40px 0;
+    
+}
+button
+{
+    background: linear-gradient( 143deg, rgb(121, 130, 118, 0.5), rgb(228, 122, 1,0.6) 80%);
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    top: 0;
+     
+}
+/* &:hover
+{
+    background: linear-gradient( 143deg, rgb(121, 130, 118), rgb(228, 122,0) 80%);
+
+} */
+#question-suivante
+{
+    margin-left: 43%;
+}
+
+

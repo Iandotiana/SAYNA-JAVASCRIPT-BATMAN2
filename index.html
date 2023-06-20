@@ -26,11 +26,11 @@
          </nav>
        </header>
        <div class="scroll">
-         <img  src="Assets\Logos\logo_bat_flèche.png" width="100" height="40">
+         <img class="arrow2"  src="Assets\Logos\logo_bat_flèche.png" width="100" height="40">
          <img src="Assets\Logos\icon_facebook.png" width="24" height="24" class="icon">
          <img src="Assets\Logos\icon_ig.png" width="24" height="24" class="icon">
          <img src="Assets\Logos\icon_tw.png" width="24" height="24" class="icon">
-         <img src="Assets\Logos\logo_bat_flèche_2.png" width="100" height="40">
+         <img class="arrow2" src="Assets\Logos\logo_bat_flèche_2.png" width="100" height="40">
        </div>
          <div class="container">
             <div class="content">
@@ -50,6 +50,13 @@
          </div>
          
      </section>
+
+     <!-- popupbox -->
+     <div class="popupbox" id="popupbox">
+         <div class="inside">
+            <h1>MESSAGE RECU!</h1>
+         </div>
+     </div>
 
      <!-- Deuxième section -->
      <section id="batman-cinema">
@@ -226,9 +233,10 @@
      <section id="formulaire">
       <div class="form">
          <h1>PRENONS CONTACT</h1>
-         <form action="">
+         <form action="" id="form">
            <label class="titreFormulaire" for="">ADRESSE EMAIL</label><br>
-           <input type="email" name="" placeholder="Entrer votre email"><br>
+           <input type="email" name="" placeholder="Entrer votre email" id="email"><br>
+           <span id="invalid"></span>
            <label class="titreFormulaire" for="">NEWSLETTER</label><br>
            <div  class="cocher">
             <label   for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les 
@@ -258,7 +266,7 @@
            <label  class="titreFormulaire" for="">MESSAGE</label><br>
            <textarea  placeholder="Laisser un commentaire pour la communauté"></textarea>
            <br>
-           <input class="confirmer" type="submit" value="CONFIRMER">
+           <input class="confirmer" type="submit" value="CONFIRMER" id="boutonSubmit">
          </form>
          
        </div>
@@ -305,5 +313,7 @@
            <a href="" class="social-item"><img src="./Assets/Logos/icon_tw.png" alt=""></a>
        </div>
    </footer>
+   <script src="validation.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>

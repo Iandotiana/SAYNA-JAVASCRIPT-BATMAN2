@@ -27,11 +27,11 @@
          </nav>
        </header>
        <div class="scroll">
-         <img  src="Assets\Logos\logo_bat_flèche.png" width="100" height="40">
+         <img  src="Assets\Logos\logo_bat_flèche.png" width="100" height="40" class="arrow2">
          <img src="Assets\Logos\icon_facebook.png" width="24" height="24" class="icon">
          <img src="Assets\Logos\icon_ig.png" width="24" height="24" class="icon">
          <img src="Assets\Logos\icon_tw.png" width="24" height="24" class="icon">
-         <img src="Assets\Logos\logo_bat_flèche_2.png" width="100" height="40">
+         <img src="Assets\Logos\logo_bat_flèche_2.png" width="100" height="40" class="arrow2">
        </div>
          <div class="container2">
             <p>LET'S PLAY <br> A LITTLE GAME...</p>
@@ -41,6 +41,52 @@
          </div>
          
      </section>
+
+
+     <!-- start game -->
+     <div class="wrapped">
+        <div class="btn-game" id="entete">
+          <div class="chevalier">
+             <h2>Connaissez vous bien le chevalier noir?</h2>
+             <img src="./Illustrations/Batgame_2.png" width="100%">
+          </div>
+          <button id="demarrer">Démarrer le quizz</button>
+        </div>
+
+        <div class="questions" id="questions">
+           <h2 class="nombreDeQuestions">
+              <span id="current-question">1</span>/ <span id="total">15</span>
+           </h2>
+           <div class="card-quizz">
+             <div class="card-image">
+                <img src="./Illustrations/Batgame_3.png" alt="">
+             </div>
+             <div class="card-body-quizz">
+                <div class="question-quizz">
+                  Quel est l'autre nom de l'homme mystère?
+                </div>
+                <div class="choisirReponse">
+                   <div class="qcm">
+                      <input type="checkbox" name="quizzz0" >
+                      <label for="">Le Sphinx</label>
+                   </div>
+                   <div class="qcm">
+                     <input type="checkbox" name="quizzz0" >
+                     <label for="">Saphir</label>
+                   </div>
+                   <div class="qcm">
+                     <input type="checkbox" name="quizzz0" >
+                     <label for="">Le Joker</label>
+                   </div>
+                </div>
+             </div>
+           </div >
+        </div>
+     </div>
+     <!-- page suivante -->
+     <div class="btn-game">
+        <button id="question-suivante">QUESTION SUIVANTE</button>
+     </div>
     </main>
     
 
@@ -61,5 +107,8 @@
            <a href="" class="social-item"><img src="./Assets/Logos/icon_tw.png" alt=""></a>
        </div>
    </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="game.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

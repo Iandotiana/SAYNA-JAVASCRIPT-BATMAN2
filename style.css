@@ -6,7 +6,7 @@
 @font-face
 {
     font-family: 'spaceGrotesk';
-    src: url(./Fonts/SpaceGrotesk-VariableFont_wght.ttf);
+    src: url(./Fonts/SpaceGrotesk-Medium.ttf);
 }
 
 :root
@@ -328,13 +328,17 @@ button.right
     padding: 3% 10%;
     font-size: 20px;
     font-family: 'rajdhani';
-     background: linear-gradient(80deg,#eddebf ,#890008
+    background: linear-gradient(80deg, var(--gradient-white),var(--gradient-red)
     );
     border: none;
     color: #fff;
     cursor: pointer;
 }
-
+.confirmer:hover
+{
+    background: linear-gradient(80deg,#eddebf ,#890008
+   );
+}
 
 /* design  de la section citation */
 #citations
@@ -409,5 +413,22 @@ footer
     height: 1090%;
     margin: 0 auto;
 }
-
+.popupbox
+{   display: none;
+    background: linear-gradient( 80deg,var(--gradient-white),#19587d 80%) ; 
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+    position: fixed;
+    top: 250px;
+    left: 300px;
+}
+.inside
+{
+    background-color: #17384a;
+    padding: 50px;
+    margin: 50px 30px 50px 30px ;
+    border-radius: 20px;
+}
 
