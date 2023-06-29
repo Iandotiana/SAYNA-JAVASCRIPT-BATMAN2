@@ -6,7 +6,7 @@
 @font-face
 {
     font-family: 'spaceGrotesk';
-    src: url(./Fonts/SpaceGrotesk-VariableFont_wght.ttf);
+    src: url(./Fonts/SpaceGrotesk-Medium.ttf);
 }
 /* les lignes discrètes */
 .up-bar
@@ -80,6 +80,10 @@ h2
 {
   margin: 20px 0;
 }
+#qquestion-quizz
+{
+    color: white;
+}
 .card-quizz
 {
     display: flex;
@@ -129,4 +133,30 @@ button
     margin-left: 43%;
 }
 
+.popup-result
+{   display: none;
+    background: linear-gradient( 143deg, rgb(121, 130, 118, 0.5), rgb(228, 122, 1,0.6) 80%);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+    position: fixed;
+    top: 250px;
+    left: 300px;
+    border-radius: 10px;
+}
+#message
+{
+    color: white;
+    font-family:'rajdhani' ;
+    font-size: 22px;
+    padding: 50px;
+    margin: 50px 30px 50px 30px ;
+    border-radius: 20px;
+}
+
+#note
+{
+   text-decoration: underline;
+}
 
